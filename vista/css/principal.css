@@ -1,0 +1,65 @@
+
+.principalModal-confirm {		
+	color: #636363;
+	width: 525px;
+	font-size: 14px;
+	margin-top: 125px;
+}
+.principalModal-confirm .principalModal-content {
+	padding: 20px;
+	border-radius: 5px;
+	border: none;
+}
+.principalModal-confirm .modal-header {
+	border-bottom: none;   
+	position: relative;
+}
+.principalModal-confirm h4 {
+	text-align: center;
+	font-size: 26px;
+	margin: 30px 0 -15px;
+}
+.principalModal-confirm .form-control, .principalModal-confirm .btn {
+	border-radius: 3px; 
+	padding: 10px
+}
+.principalModal-confirm .modal-footer {
+	border: none;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 13px;
+}	
+.principalModal-confirm .icon-box {
+	color: #fff;		
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: -70px;
+	width: 95px;
+	height: 95px;
+	border-radius: 50%;
+	z-index: 9;
+	background: #82ce34;
+	padding: 15px;
+	text-align: center;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.principalModal-confirm .icon-box i {
+	font-size: 58px;
+	position: relative;
+	top: 3px;
+}
+.principalModal-confirm .btn {
+	color: #fff;
+	border-radius: 4px;
+	background: #75bd2e;
+	text-decoration: none;
+	transition: all 0.4s;
+	line-height: normal;
+	border: none;
+}
+.principalModal-confirm .btn:hover, .principalModal-confirm .btn:focus {
+	background: #6fb32b;
+	outline: none;
+}
